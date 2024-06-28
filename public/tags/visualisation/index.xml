@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualisation on Rachel Soh</title>
+    <link>http://localhost:1313/tags/visualisation/</link>
+    <description>Recent content in Visualisation on Rachel Soh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Analysis</title>
+      <link>http://localhost:1313/projects/twitter-analysis/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/twitter-analysis/</guid>
+      <description>THIS IS A COMPLETED PROJECT&#xA;Given how most events moved online during COVID-19, having a strong digital presence is a huge advantage for organisations. Therefore, in this project, I’ve decided to find out whether Twitter is a good social media platform for departments at the LSE. This was an academic project.&#xA;You can find some main features and code of this project below:&#xA;Data Collection A mix of Twitter APIs and web scraping were used to collect information about departments at LSE.</description>
+    </item>
+  </channel>
+</rss>

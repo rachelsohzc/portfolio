@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="THIS IS AN COMPLETED PROJECT
+We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.
+You can find some main features of the project here:
+Database rules Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries." />
+<meta name="keywords" content=", Databases, Relational DBs, Python, SQLite, DBBrowser" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/projects/e-commerce-database/" />
+
+
+    <title>
+        
+            Creating an e-commerce database :: Rachel Soh  — A simple portfolio site
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.949191c1dcc9c4a887997048b240354e47152016d821198f89448496ba42e491.css" integrity="sha256-lJGRwdzJxKiHmXBIskA1TkcVIBbYIRmPiUSElrpC5JE=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Creating an e-commerce database">
+  <meta itemprop="description" content="THIS IS AN COMPLETED PROJECT
+We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.
+You can find some main features of the project here:
+Database rules Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries.">
+  <meta itemprop="datePublished" content="2022-01-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-01-21T00:00:00+00:00">
+  <meta itemprop="wordCount" content="216">
+  <meta itemprop="image" content="http://localhost:1313/">
+  <meta itemprop="keywords" content="Databases,Relational DBs,Python,SQLite,DBBrowser">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/">
+  <meta name="twitter:title" content="Creating an e-commerce database">
+  <meta name="twitter:description" content="THIS IS AN COMPLETED PROJECT
+We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.
+You can find some main features of the project here:
+Database rules Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries.">
+
+
+
+    <meta property="og:url" content="http://localhost:1313/projects/e-commerce-database/">
+  <meta property="og:site_name" content="Rachel Soh">
+  <meta property="og:title" content="Creating an e-commerce database">
+  <meta property="og:description" content="THIS IS AN COMPLETED PROJECT
+We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.
+You can find some main features of the project here:
+Database rules Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2022-01-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-01-21T00:00:00+00:00">
+    <meta property="article:tag" content="Databases">
+    <meta property="article:tag" content="Relational DBs">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="SQLite">
+    <meta property="article:tag" content="DBBrowser">
+    <meta property="og:image" content="http://localhost:1313/">
+
+
+
+
+    <meta property="article:section" content="Databases" />
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2022-01-21 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                Rachel Soh</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/">About</a></li><li><a href="/projects/">Projects</a></li><li><a href="https://docs.google.com/document/d/1q-szLP_Kas7zyNlrrNavxVqQbMpRIu6EzwwJUmb4maI/edit?usp=sharing">CV</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/projects/e-commerce-database/">Creating an e-commerce database</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p><a href="https://github.com/rachelsohzc/E-commerce-Database">THIS IS AN COMPLETED PROJECT</a></p>
+<p>We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.</p>
+<p>You can find some main features of the project here:</p>
+<h3 id="database-rules">Database rules</h3>
+<p>Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries.</p>
+<pre tabindex="0"><code>{{ create_products_query = &#39;&#39;&#39;CREATE TABLE IF NOT EXISTS Products (
+ProductID TEXT PRIMARY KEY,
+Category TEXT NOT NULL,
+SubCategory TEXT NOT NULL,
+Brand TEXT NOT NULL,
+ProdDescription TEXT NOT NULL)
+&#39;&#39;&#39; }}
+</code></pre><p>Going back to the real-life scenario of a company, we can use an example. For instance, if Amazon had a ratings input that ranged from 1 to 5, a value outside of 1 to 5 shouldn’t be allowed to be entered into the database. Therefore, we also made relevant triggers for each table.</p>
+<pre tabindex="0"><code>{{ trigger_1 = &#39;&#39;&#39;
+CREATE TRIGGER bef_update_RRating BEFORE UPDATE ON Reviews
+BEGIN
+SELECT CASE
+WHEN ((SELECT Reviews.RRating FROM Reviews WHERE NEW.RRating &lt; 1 OR NEW.RRating &gt; 5) IS NOT NULL)
+THEN RAISE(FAIL, &#39;ERROR: Invalid rating score.&#39;)
+END;
+END;
+&#39;&#39;&#39;}}
+</code></pre><p>View the full project repository <strong><a href="https://github.com/rachelsohzc/E-commerce-Database">here</a></strong></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/databases/">Databases</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/relational-dbs/">Relational DBs</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/python/">Python</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/sqlite/">SQLite</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/dbbrowser/">DBBrowser</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="http://localhost:1313/categories/databases/">Databases</a></span>
+        <span class="tag"><a href="http://localhost:1313/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.85fad2de4f13fec3bcb3b3cb10430cdb44a7b4a9749b32938241a5c6e77718df7624f1002b880521fdc26e24ec1077fda214bf1cb36ee3045510760d09638cae.js" integrity="sha512-hfrS3k8T/sO8s7PLEEMM20SntKl0mzKTgkGlxud3GN92JPEAK4gFIf3CbiTsEHf9ohS/HLNu4wRVEHYNCWOMrg=="></script>
+
+
+
+
+    </body>
+</html>

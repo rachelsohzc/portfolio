@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Rachel Soh</title>
+    <link>http://localhost:1313/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Rachel Soh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Analysis</title>
+      <link>http://localhost:1313/projects/twitter-analysis/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/twitter-analysis/</guid>
+      <description>THIS IS A COMPLETED PROJECT&#xA;Given how most events moved online during COVID-19, having a strong digital presence is a huge advantage for organisations. Therefore, in this project, I’ve decided to find out whether Twitter is a good social media platform for departments at the LSE. This was an academic project.&#xA;You can find some main features and code of this project below:&#xA;Data Collection A mix of Twitter APIs and web scraping were used to collect information about departments at LSE.</description>
+    </item>
+    <item>
+      <title>Simple stock prediction with ANN</title>
+      <link>http://localhost:1313/projects/simple-stock-prediction-with-ann/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/simple-stock-prediction-with-ann/</guid>
+      <description>THIS IS AN ONGOING PROJECT&#xA;The task of predicting stock market prices is challenging. That’s what drove me to do this project. Due to high volatility, investors use a combination of technical and fundamental analysis to help them better decisions about their equity market decisions. A newly popular technical methods is using artificial neural networks (ANN). Therefore, this project aims to find out which ANN model has the best performance.</description>
+    </item>
+    <item>
+      <title>NVIDIA Stock Analysis</title>
+      <link>http://localhost:1313/projects/nvidia-stock-analysis/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nvidia-stock-analysis/</guid>
+      <description>THIS IS AN ONGOING PROJECT&#xA;I’ve been interested in investing in the stock market lately. I started this projects to help me learn more about valuing companies and deciding what stocks to invest in. This is a short project where I analyse Nvidia stocks using past information, and the project answers some important questions like:&#xA;What was the change in price of stock over time? What is the daily and monthly return of the stock?</description>
+    </item>
+    <item>
+      <title>L.A Crime Analysis</title>
+      <link>http://localhost:1313/projects/l.a-crime-analysis/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/l.a-crime-analysis/</guid>
+      <description>THIS IS AN COMPLETED PROJECT&#xA;Predictive policing is becoming an important part for fair policing today. We wanted to find out if we could predict which areas would have crimes based on factors like victim’s age, sex, descent, premise types etc. using decision trees and logistic regression models. The final product of this projects was to find out which inputs heavily influence severe crimes in Los Angeles.&#xA;I used multiple methods to cross-check the predictors in this project.</description>
+    </item>
+  </channel>
+</rss>

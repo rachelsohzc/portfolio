@@ -44,7 +44,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "Rachel Soh"
-      logoHomeLink = "/"
+      logoHomeLink = "https://rachelsohzc.github.io/portfolio/"
     # or
     #
     # path = "/img/your-example-logo.svg"

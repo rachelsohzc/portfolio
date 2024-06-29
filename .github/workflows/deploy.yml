@@ -3,7 +3,7 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Adjust branch name as needed
 
 jobs:
   build-deploy:
@@ -21,18 +21,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
-      - name: Create .nojekyll file
-        run: |
-          echo $null >> .nojekyll
-
       - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public  
+
+      - name: Cleanup
         run: |
-          mv public/* .
           rm -rf public
-          git config --global user.email "rachelsohzc@gmail.com"
-          git config --global user.name "rachelsohzc"
-          git add .
-          git commit -m "Deploy Hugo site to main"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

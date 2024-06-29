@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LSTM on Rachel Soh</title><link>https://rachelsohzc.github.io/portfolio/tags/lstm/</link><description>Recent content in LSTM on Rachel Soh</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rachelsohzc.github.io/portfolio/tags/lstm/index.xml" rel="self" type="application/rss+xml"/><item><title>Simple stock prediction with ANN</title><link>https://rachelsohzc.github.io/portfolio/projects/simple-stock-prediction-with-ann/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/projects/simple-stock-prediction-with-ann/</guid><description>THIS IS AN ONGOING PROJECT
-The task of predicting stock market prices is challenging. That’s what drove me to do this project. Due to high volatility, investors use a combination of technical and fundamental analysis to help them better decisions about their equity market decisions. A newly popular technical methods is using artificial neural networks (ANN). Therefore, this project aims to find out which ANN model has the best performance.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LSTM on Rachel Soh</title>
+    <link>http://localhost:1313/portfolio/tags/lstm/</link>
+    <description>Recent content in LSTM on Rachel Soh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/tags/lstm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple stock prediction with ANN</title>
+      <link>http://localhost:1313/portfolio/projects/simple-stock-prediction-with-ann/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/simple-stock-prediction-with-ann/</guid>
+      <description>THIS IS AN ONGOING PROJECT&#xA;The task of predicting stock market prices is challenging. That’s what drove me to do this project. Due to high volatility, investors use a combination of technical and fundamental analysis to help them better decisions about their equity market decisions. A newly popular technical methods is using artificial neural networks (ANN). Therefore, this project aims to find out which ANN model has the best performance.</description>
+    </item>
+  </channel>
+</rss>

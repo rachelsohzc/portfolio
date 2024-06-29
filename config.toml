@@ -42,13 +42,18 @@ paginate     = 10
   [languages.en.params]
     subtitle  = "Portfolio"
 
-    [languages.en.params.logo]
-      logoText = "Rachel Soh"
-      logoHomeLink = "https://rachelsohzc.github.io/portfolio/"
+    # [languages.en.params.logo]
+    #  logoText = "Rachel Soh"
+    #  logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
+
+[params.logo]
+  logoMark     = ">"
+  logoText     = "$ cd /home/"
+  logoHomeLink = "/"
 
 [[params.social]]
 

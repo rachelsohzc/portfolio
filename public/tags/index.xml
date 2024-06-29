@@ -1,1 +1,139 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Rachel Soh</title><link>https://rachelsohzc.github.io/portfolio/tags/</link><description>Recent content in Tags on Rachel Soh</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rachelsohzc.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>APIs</title><link>https://rachelsohzc.github.io/portfolio/tags/apis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/apis/</guid><description/></item><item><title>Data Analysis</title><link>https://rachelsohzc.github.io/portfolio/tags/data-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/data-analysis/</guid><description/></item><item><title>Data Prep</title><link>https://rachelsohzc.github.io/portfolio/tags/data-prep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/data-prep/</guid><description/></item><item><title>Visualisation</title><link>https://rachelsohzc.github.io/portfolio/tags/visualisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/visualisation/</guid><description/></item><item><title>AI/ML</title><link>https://rachelsohzc.github.io/portfolio/tags/ai/ml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/ai/ml/</guid><description/></item><item><title>LSTM</title><link>https://rachelsohzc.github.io/portfolio/tags/lstm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/lstm/</guid><description/></item><item><title>Neural Networks</title><link>https://rachelsohzc.github.io/portfolio/tags/neural-networks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/neural-networks/</guid><description/></item><item><title>ARIMA Model</title><link>https://rachelsohzc.github.io/portfolio/tags/arima-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/arima-model/</guid><description/></item><item><title>Equity Markets</title><link>https://rachelsohzc.github.io/portfolio/tags/equity-markets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/equity-markets/</guid><description/></item><item><title>Decision Trees</title><link>https://rachelsohzc.github.io/portfolio/tags/decision-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/decision-trees/</guid><description/></item><item><title>Logistic Regression</title><link>https://rachelsohzc.github.io/portfolio/tags/logistic-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/logistic-regression/</guid><description/></item><item><title>R</title><link>https://rachelsohzc.github.io/portfolio/tags/r/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/r/</guid><description/></item><item><title>Random Forests</title><link>https://rachelsohzc.github.io/portfolio/tags/random-forests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/random-forests/</guid><description/></item><item><title>Databases</title><link>https://rachelsohzc.github.io/portfolio/tags/databases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/databases/</guid><description/></item><item><title>DBBrowser</title><link>https://rachelsohzc.github.io/portfolio/tags/dbbrowser/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/dbbrowser/</guid><description/></item><item><title>Python</title><link>https://rachelsohzc.github.io/portfolio/tags/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/python/</guid><description/></item><item><title>Relational DBs</title><link>https://rachelsohzc.github.io/portfolio/tags/relational-dbs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/relational-dbs/</guid><description/></item><item><title>SQLite</title><link>https://rachelsohzc.github.io/portfolio/tags/sqlite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/tags/sqlite/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rachel Soh</title>
+    <link>http://localhost:1313/portfolio/tags/</link>
+    <description>Recent content in Tags on Rachel Soh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>APIs</title>
+      <link>http://localhost:1313/portfolio/tags/apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/apis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:1313/portfolio/tags/data-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Prep</title>
+      <link>http://localhost:1313/portfolio/tags/data-prep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/data-prep/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualisation</title>
+      <link>http://localhost:1313/portfolio/tags/visualisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/visualisation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI/ML</title>
+      <link>http://localhost:1313/portfolio/tags/ai/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/ai/ml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LSTM</title>
+      <link>http://localhost:1313/portfolio/tags/lstm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/lstm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Networks</title>
+      <link>http://localhost:1313/portfolio/tags/neural-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ARIMA Model</title>
+      <link>http://localhost:1313/portfolio/tags/arima-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/arima-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Equity Markets</title>
+      <link>http://localhost:1313/portfolio/tags/equity-markets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/equity-markets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decision Trees</title>
+      <link>http://localhost:1313/portfolio/tags/decision-trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/decision-trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logistic Regression</title>
+      <link>http://localhost:1313/portfolio/tags/logistic-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/logistic-regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>http://localhost:1313/portfolio/tags/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Random Forests</title>
+      <link>http://localhost:1313/portfolio/tags/random-forests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/random-forests/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databases</title>
+      <link>http://localhost:1313/portfolio/tags/databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/databases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DBBrowser</title>
+      <link>http://localhost:1313/portfolio/tags/dbbrowser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/dbbrowser/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/portfolio/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relational DBs</title>
+      <link>http://localhost:1313/portfolio/tags/relational-dbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/relational-dbs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQLite</title>
+      <link>http://localhost:1313/portfolio/tags/sqlite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/sqlite/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

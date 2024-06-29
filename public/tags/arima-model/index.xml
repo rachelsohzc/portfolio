@@ -1,3 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ARIMA Model on Rachel Soh</title><link>https://rachelsohzc.github.io/portfolio/tags/arima-model/</link><description>Recent content in ARIMA Model on Rachel Soh</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rachelsohzc.github.io/portfolio/tags/arima-model/index.xml" rel="self" type="application/rss+xml"/><item><title>NVIDIA Stock Analysis</title><link>https://rachelsohzc.github.io/portfolio/projects/nvidia-stock-analysis/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/projects/nvidia-stock-analysis/</guid><description>THIS IS AN ONGOING PROJECT
-I’ve been interested in investing in the stock market lately. I started this projects to help me learn more about valuing companies and deciding what stocks to invest in. This is a short project where I analyse Nvidia stocks using past information, and the project answers some important questions like:
-What was the change in price of stock over time? What is the daily and monthly return of the stock?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ARIMA Model on Rachel Soh</title>
+    <link>http://localhost:1313/portfolio/tags/arima-model/</link>
+    <description>Recent content in ARIMA Model on Rachel Soh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/tags/arima-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA Stock Analysis</title>
+      <link>http://localhost:1313/portfolio/projects/nvidia-stock-analysis/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/nvidia-stock-analysis/</guid>
+      <description>THIS IS AN ONGOING PROJECT&#xA;I’ve been interested in investing in the stock market lately. I started this projects to help me learn more about valuing companies and deciding what stocks to invest in. This is a short project where I analyse Nvidia stocks using past information, and the project answers some important questions like:&#xA;What was the change in price of stock over time? What is the daily and monthly return of the stock?</description>
+    </item>
+  </channel>
+</rss>

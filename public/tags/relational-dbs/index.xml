@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Relational DBs on Rachel Soh</title>
-    <link>http://localhost:1313/tags/relational-dbs/</link>
-    <description>Recent content in Relational DBs on Rachel Soh</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/relational-dbs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Creating an e-commerce database</title>
-      <link>http://localhost:1313/projects/e-commerce-database/</link>
-      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/e-commerce-database/</guid>
-      <description>THIS IS AN COMPLETED PROJECT&#xA;We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.&#xA;You can find some main features of the project here:&#xA;Database rules Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Relational DBs on Rachel Soh</title><link>https://rachelsohzc.github.io/portfolio/tags/relational-dbs/</link><description>Recent content in Relational DBs on Rachel Soh</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rachelsohzc.github.io/portfolio/tags/relational-dbs/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating an e-commerce database</title><link>https://rachelsohzc.github.io/portfolio/projects/e-commerce-database/</link><pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate><guid>https://rachelsohzc.github.io/portfolio/projects/e-commerce-database/</guid><description>THIS IS AN COMPLETED PROJECT
+We wanted to mimic a database of a huge e-commerce site like Amazon. This project solely focuses on breaking down a huge database into smaller tables to deliver both operations and insights.
+You can find some main features of the project here:
+Database rules Since we broke down the company’s database into smaller tables, we needed a way to connect certain records while running queries. Therefore, we made primary keys during the creation of the tables for table matching for queries.</description></item></channel></rss>

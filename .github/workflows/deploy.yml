@@ -1,0 +1,37 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.127.0'
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Create .nojekyll file
+        run: echo. > .nojekyll
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mv public/* .
+          rm -rf public
+          git config --global user.email "rachelsohzc@gmail.com"
+          git config --global user.name "rachelsohzc"
+          git add .
+          git commit -m "Deploy Hugo site to main"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

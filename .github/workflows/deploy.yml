@@ -23,7 +23,7 @@ jobs:
 
       - name: Create .nojekyll file
         run: |
-          echo. > .nojekyll
+          echo $null >> .nojekyll
 
       - name: Deploy to GitHub Pages
         run: |

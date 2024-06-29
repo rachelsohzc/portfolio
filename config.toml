@@ -40,7 +40,7 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple portfolio site"
+    subtitle  = "Portfolio"
 
     [languages.en.params.logo]
       logoText = "Rachel Soh"
